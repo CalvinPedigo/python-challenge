@@ -61,5 +61,5 @@ print("Greatest Decrease in Profits:", greatest_decrease[0], "($", greatest_decr
 os.chdir("Python_challenge\python-challenge\PyBank")
 with open("main.py", "r") as python_file:
     python_code = python_file.read()
-with open("Exported text File of Main.py", "w") as export_file:
+with open("Exported text File of Mainpy for PyBank.txt", "w") as export_file:
     export_file.write(python_code)

@@ -45,5 +45,5 @@ print("----------------------------")
 os.chdir("Python_challenge\python-challenge\PyPoll")
 with open("main.py", "r") as python_file:
     python_code = python_file.read()
-with open("Exported text File of Main.py for PyPoll", "w") as export_file:
+with open("Exported text File of Mainpy for PyPoll.txt", "w") as export_file:
     export_file.write(python_code)
