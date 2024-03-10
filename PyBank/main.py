@@ -1,7 +1,7 @@
 import csv
 import os
 #file path
-budget_data = r"C:\Users\Owner\Desktop\DA Classwork\M3 Starting Python yay\Python_challenge\python-challenge\PyBank\Resources\budget_data.csv"
+budget_data = r"Python_challenge\python-challenge\PyBank\Resources\budget_data.csv"
 
 #storing variabls
 unique_months = set()
@@ -61,5 +61,5 @@ print("Greatest Decrease in Profits:", greatest_decrease[0], "($", greatest_decr
 os.chdir("Python_challenge\python-challenge\PyBank")
 with open("main.py", "r") as python_file:
     python_code = python_file.read()
-with open("Exported Text File of main.py", "w") as export_file:
+with open("Exported text File of Main.py", "w") as export_file:
     export_file.write(python_code)
